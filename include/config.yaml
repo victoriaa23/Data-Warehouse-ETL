@@ -1,0 +1,18 @@
+aws:
+  access_key_id: "ТВОЯ_КЛЮЧ"
+  secret_access_key: "ТВОЯ_СЕКРЕТЕН_КЛЮЧ"
+  region: "eu-north-1"
+  raw_bucket: "data-warehouse-etll"
+  processed_bucket: "data-warehouse-etll"
+
+snowflake:
+  user: "VICTORIAGEORGIEVA8"
+  password: "ТВОЯТА_ПАРОЛА"
+  account: "PB34421"
+  warehouse: "COMPUTE_WH"
+  database: "GLOBO_DB"
+  schema_raw: "RAW"
+  schema_cleansed: "CLEANSED"
+  schema_star: "STAR"
+  schema_presentation: "PRESENTATION"
+
